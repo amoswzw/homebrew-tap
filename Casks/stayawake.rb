@@ -7,7 +7,7 @@ cask "stayawake" do
   desc "Menu-bar utility that prevents idle sleep during long-running work"
   homepage "https://github.com/amoswzw/stayawake"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "stayawake.app"
 

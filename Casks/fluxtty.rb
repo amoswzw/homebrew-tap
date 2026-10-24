@@ -17,8 +17,9 @@ cask "fluxtty" do
 
   app "fluxtty.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-r", "-d", "com.apple.quarantine", "#{appdir}/fluxtty.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args:           ["-r", "-d", "com.apple.quarantine", "{{appdir}}/fluxtty.app"],
+        writable_paths: ["{{appdir}}/fluxtty.app"]
   end
 end

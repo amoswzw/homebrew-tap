@@ -7,7 +7,7 @@ cask "hushloom" do
   desc "macOS menu bar app for focus sessions, ambient soundscapes, and lightweight task tracking"
   homepage "https://github.com/amoswzw/Hushloom"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Hushloom.app"
 
