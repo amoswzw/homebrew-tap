@@ -2,8 +2,8 @@
 # by .github/workflows/release.yml, which fills in `version` and `sha256` on every release.
 # Users install with: brew install --cask amoswzw/tap/inkshot
 cask "inkshot" do
-  version "1.0.0"
-  sha256 "b4920dd1074f4fd294a4ef47f9877750cac6619824b6b2933db4232dba10c065"
+  version "1.0.1"
+  sha256 "51bb3730cf40538ad301937d3b4d80f1c3a2eef5ca8dce1431da60d8591eb047"
 
   url "https://github.com/amoswzw/Inkshot/releases/download/v#{version}/Inkshot-#{version}.zip"
   name "Inkshot"
