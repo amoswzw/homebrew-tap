@@ -2,8 +2,8 @@
 # by .github/workflows/release.yml, which fills in `version` and `sha256` on every release.
 # Users install with: brew install --cask amoswzw/tap/inkstats
 cask "inkstats" do
-  version "0.1.4"
-  sha256 "25f09bbc276bdc4db44316c05de51541f529692318661cb6e3b30e3f353a06d1"
+  version "0.1.5"
+  sha256 "8f53a10ae51c50dc300c539353f85d00695cea79ae4dec214db1ed9dede01aad"
 
   url "https://github.com/amoswzw/InkStats/releases/download/v#{version}/InkStats-#{version}.zip"
   name "InkStats"
