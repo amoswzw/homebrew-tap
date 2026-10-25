@@ -2,8 +2,8 @@
 # by .github/workflows/release.yml, which fills in `version` and `sha256` on every release.
 # Users install with: brew install --cask amoswzw/tap/inkbar
 cask "inkbar" do
-  version "0.1.1"
-  sha256 "6656917f6d31da51c8db84730b5387f2c84928d7e6847e9be1181c4d8d5662d4"
+  version "0.1.2"
+  sha256 "c1a8e1cc9487e2a31846e9781eb5ace763da5c7dc7176e2cd3d9d3af435aef17"
 
   url "https://github.com/amoswzw/InkBar/releases/download/v#{version}/InkBar-#{version}.zip"
   name "InkBar"
